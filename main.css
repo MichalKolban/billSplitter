@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: monospace;
+    font-size: 20px;
+    background-color: #F1FAEE;
+    color: #ececec;
+    font-weight: 700;
+}
+
+.box {
+    max-width: 800px;
+    width: 90vw;
+    height: 80vh;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #E63946;
+    border-radius: 10px;
+}
+
+.box h1 {
+    margin: 25px auto;
+    text-align: center;
+}
+
+.box h1 i {
+    padding: 0 10px;
+}
+
+.box form {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    color: #ececec;
+}
+
+.section label {
+    flex-basis: 40%;
+    font-size: 28px;
+    line-height: 58px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.section input {
+    flex-grow: 1;
+    font-size: 28px;
+    text-align: center;
+    padding: 5px 20px;
+    font-family: monospace;
+    background-color: #F1FAEE;
+    border-style: none;
+    border: 2px solid #1D3557;
+    color: black;
+    border-radius: 10px;
+    
+}
+
+.section select {
+    font-size: 28px;
+    flex-grow: 1;
+    text-align-last: center;
+    padding: 5px 20px;
+    font-family: monospace;
+    border-style: none;
+    outline: none;
+    background-color: #F1FAEE;
+    border: 2px solid #1D3557;
+    border-radius: 10px;
+}
+
+
+.box button {
+    margin: 0 auto;
+    padding: 20px 15px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: #F1FAEE;
+    color: #222831;
+    border: 3px solid #1D3557;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 10px auto 60px;
+    font-size: 40px;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+@media(max-width : 800px){
+    .box {
+        width: 95vw;
+        height: auto;
+        font-size: 16px;
+        margin: 0 auto;
+        margin-top: 3vh;
+    }
+    .section {
+        flex-direction: column;
+    }
+    .section label {
+        font-size: 22px;
+        
+    }
+    .box button {
+        margin-top: 20px;
+    }
+}

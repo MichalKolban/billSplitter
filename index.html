@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Splitter</title>
+    <script src="https://kit.fontawesome.com/ba9f3d9e89.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+
+    <div class="wrap">
+
+        <div class="box">
+            <h1><i class="fas fa-receipt"></i>Bill Splitter<i class="fas fa-receipt"></i></h1>
+
+                <form>
+            <div class="section">
+                <label for="billAmout">Enter the bill:</label>
+                <input class="bill" type="number" placeholder="enter amount..." min="0">
+            </div>
+
+            <div class="section">
+                <label for="peopleCount">How many people ?</label>
+                <input class="peopleCount" type="number" min="1" placeholder="0">
+            </div>
+
+            <div class="section">
+                <label for="percentageAmount">How big tip ?</label>
+                <select class="percentage" name="percentageAmount">
+                    <option value="5%">5%</option>
+                    <option value="10%">10%</option>
+                    <option value="12%">12%</option>
+                    <option value="15%">15%</option>
+                    <option value="25%">25%</option>
+                    <option value="50%">50%</option>
+                    <option value="100%">100%</option>
+                </select>
+            </div>
+
+                <button>Split the check!</button>
+            </form>
+
+            <h2>Split : <span></span></h2>
+
+        </div>
+
+
+    </div>
+    
+
+    <script src="code.js"></script>
+</body>
+</html>
