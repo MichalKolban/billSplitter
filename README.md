@@ -1,6 +1,6 @@
 # Bill Splitter
 
-# live previev : https://thebillsplitter.netlify.app/
+## live previev : https://thebillsplitter.netlify.app/
 
 ## Description 
 
